@@ -14,7 +14,7 @@ DEBUG = os.getenv('DEBUG', 'False').lower() == 'true'
 
 ALLOWED_HOSTS = os.getenv('ALLOWED_HOSTS', 'local,host').split(',')
 
-USE_SQLITE = os.getenv('DB_METHOD', 'False').lower() == 'true'
+USE_SQLITE = os.getenv('USE_SQLITE', 'False').lower() == 'true'
 
 # Application definition
 
